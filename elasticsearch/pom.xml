@@ -84,9 +84,8 @@
     </dependency>
 
     <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-all</artifactId>
-      <version>${hamcrest.all.version}</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -105,9 +104,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <configuration>
-          <skip>false</skip>
-        </configuration>
       </plugin>
     </plugins>
   </build>
